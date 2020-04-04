@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgba(239, 239, 239, 0.4);
-    --overlay-color: rgba(24, 39, 51, 0.85);
+    --overlay-color: rgba(239, 239, 239, 1);
     --menu-speed: 0.75s;
 }
 
@@ -64,10 +64,12 @@ body {
 .btn {
     display: inline-block;
     border: none;
-    background-color: var(--primary-color);
-    color: #000000;
+    border-radius: 5% ;
+    font-size: 0.6rem;
+    background-color: #000000;
+    color: #ffffff;
     padding: 0.75rem 1.5rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     text-decoration: none;
     transition: opacity 0.3s ease-in;
 }
