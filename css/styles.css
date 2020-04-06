@@ -13,42 +13,46 @@
 body {
     font-family:'Lato','Roboto', sans-serif; 
     line-height: 1.4;
+    /* width: 80%; */
+    margin:auto;
 }
 
-.container {
-    max-width: 960px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 3rem;
+.logo {
+    width: 100%;
+    top: 0;
+    display: block;
+    text-align: center;
+}
+
+.logo img {
+    margin-top: 5px;
 }
 
 .banner {
-    background-color: var(--primary-color);
-    color: #000000;
     height: 100vh;
     position: relative;
-
 }
 
-.banner:before {
-    content:'';
-    background: url(../images/scottland_black.jpeg) no-repeat center center/cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height:100%;
-    z-index: -1;
-}
-
-.banner .banner-inner {
+.banner-wrapper {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height:100%;
+    justify-content: space-between;
+    width: 80vw;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+.banner-right {
+    margin-top: 2em;
+	margin-left: 2em;
+}
+
+.banner-left {
+    margin-top: 4em;
+}
+
+
 
 .banner h1 {
     font-size: 2rem;
@@ -58,7 +62,8 @@ body {
 
 .banner p {
     font-family: 'Whitman', serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    margin-top: 2rem;
 }
 
 .btn {
@@ -76,4 +81,27 @@ body {
 
 .btn:hover {
     opacity: 0.6;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: var(--primary-color);
+    color:#000000;
+    text-align: center;
+  }
+
+.footer h2 {
+    /* margin-top: 40px; */
+}
+
+.footer .socialIcons {
+    margin-top: 30px;
+}
+
+.footer .socialIcons a {
+    margin-right: 30px;
 }
