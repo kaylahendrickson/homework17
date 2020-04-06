@@ -64,12 +64,13 @@ body {
 .banner h1:before {
     content:"";
     display: block;
-    width: 50px;
+    width: 70%;
     height: 2px;
     background: #000000;
     position: absolute;
-    /* left: 0; */
     top: 50%;
+    width: 3rem;
+    margin: 0 5rem;
 }
 
 .banner h1:after {
@@ -81,6 +82,8 @@ body {
     position: absolute;
     right: 0;
     top: 50%;
+    width: 3rem;
+    margin: 0 5rem;
 }
 
 .banner p {
@@ -121,27 +124,27 @@ body {
       font-weight: 400;
   }
 
-  .footer h2:before {
+/* .footer h2:before {
     content:"";
     display: block;
-    width: 50px;
+    width: 200px;
     height: 2px;
     background: #000000;
     position: absolute;
-    /* left: 0; */
+    left: 0;
     top: 50%;
-}
+} */
 
-.footer h2:after {
+/* .footer h2:after {
     content:"";
     display: block;
     width: 50px;
     height: 2px;
     background: #000000;
     position: absolute;
-    /* right: 0; */
+    right: 0;
     top: 50%;
-}
+} */
 
 
 .footer .socialIcons {
