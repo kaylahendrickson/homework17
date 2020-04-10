@@ -11,13 +11,18 @@
 }
 
 body {
-    font-family:'Lato','Roboto', sans-serif; 
+    font-family: "Whitman", "Vollkorn", serif; 
     line-height: 1.4;
     /* width: 80%; */
     margin:auto;
 }
 
+h1, h2, h3 {
+    font-family: "Mr Eaves San OT", "Josefin Sans", sans-serif;
+}
+
 .logo {
+    position: relative;
     width: 100%;
     top: 0;
     display: block;
@@ -57,10 +62,11 @@ body {
 .banner h1 {
     font-size: 1.5rem;
     text-align: center;
-    font-family: 'Mr Eaves San OT', 'Lato', 'Roboto' sans-serif;
     font-weight: 400;
     position: relative;
 }
+
+/* heading decoration */
 .banner h1:before {
     content:"";
     display: block;
@@ -97,6 +103,7 @@ body {
     border: none;
     border-radius: 5%;
     font-size: 0.8rem;
+    font-family: "Mr Eaves San OT", "Josefin Sans" sans-serif;
     background-color: #000000;
     color: #ffffff;
     padding: 0.75rem 1.5rem;
@@ -105,6 +112,7 @@ body {
     transition: opacity 0.3s ease-in;
 }
 
+/* button hover state */
 .btn:hover {
     background-color: #87C6BD;
 }
@@ -114,41 +122,45 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 250px;
+    height: 30vh;
     background-color: var(--primary-color);
     color:#000000;
     text-align: center;
   }
 
   .footer h2 {
+      /* position: absolute; */
+      text-align: center;
       font-weight: 400;
-      padding: 20px;
+      padding-top: 20px;
+      font-family: 'Mr Eaves San OT', 'Josefin Sans' sans-serif;
   }
 
 .footer h2:before {
     content:"";
     display: block;
-    width: 30px;
+    width: 40px;
     height: 2px;
     background: #000000;
     position: absolute;
-    left: 0;
-    top: 15%;
-    width: 3rem;
-    margin: 0 30rem;
+    left: 38%;
+    top: 35px;
+    /* left: 0; */
+    /* top: 15%; */
+    /* width: 3rem; */
+    /* margin: 0 30rem; */
 }
 
 .footer h2:after {
     content:"";
     display: block;
-    width: 30px;
+    width: 40px;
     height: 2px;
     background: #000000;
     position: absolute;
-    right: 0;
-    top: 15%;
-    width: 3rem;
-    margin: 0 30rem;
+    right: 38%;
+    top: 35px;
+    /* margin: 0 40%; */
 }
 
 
